@@ -1,0 +1,33 @@
+text_extensions:
+  - .py
+  - .js
+  - .java
+  - .cpp
+  - .h
+  - .c
+  - .cs
+  - .go
+  - .txt
+  - .md
+  - .html
+  - .css
+  - .json
+  - .xml
+  - .yml
+  - .yaml
+  - .toml
+default_exclusions:
+  - "*.exe"
+  - "*.png"
+  - "*.jpg"
+  - "*.jpeg"
+  - "*.gif"
+  - "*.pdf"
+  - "*.bin"
+  - "*.zip"
+  - "*.tar.gz"
+  - ".git/*"
+  - ".mypy_cache/*"
+  - ".ruff_cache/*"
+default_output: repo_combined.txt
+token_multiplier: 1.3

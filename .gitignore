@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Output files
+repo_combined.txt
+*.json
+*.xml
+*.md
+
+# Test artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+test_output.txt
+
+# Misc
+*.log
+*.bak
+.DS_Store
