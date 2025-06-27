@@ -14,7 +14,9 @@ venv.bak/
 repo_combined.txt
 *.json
 *.xml
+# Ignore generated markdown files but keep README.md
 *.md
+!README.md
 
 # Test artifacts
 .coverage
